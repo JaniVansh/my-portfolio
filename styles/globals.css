@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+.icon-ul {
+  list-style-type: none;
+
+  
+  }
+
+
+  #linkdin-icon:hover{
+    color: rgb(96, 95, 95);
+  }
+  #github-icon:hover{
+    color: rgb(96, 95, 95);
+  }
+.navbar{
+  width: 100%;
+}
+  
+.icon-ul li {
+  margin: 1.5rem;
+}
+
+#profile {
+  height: 19rem;
+  width: 75%;
+  background-image: url('https://cdn3.iconfinder.com/data/icons/business-round-flat-vol-1-1/36/user_account_profile_avatar_person_student_male-512.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  animation: wave 5s ease-in-out infinite 1s;
+}
+
+.home-cont {
+  margin-top: 10rem;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+#box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rem;
+}
+
+
+
+
+@keyframes wave {
+
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+}
+
+/* About Section css */
+
+#about-cont{
+  margin-top: 20rem;
+}
+
+.about-image{
+  height: 30rem;
+  width: 100%;
+  border-radius: 15px;
+ 
+}
+
+.sec-1{
+  height: 10rem;
+  width: 100%;
+  border: 2px solid rgb(197, 195, 195);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+#cont-sec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about-text{
+  height: 10rem;
+  width: 40rem;
+  margin-top: 2rem;
+}
+
+/* Skills Section  */
+
+#skills{
+  margin-top: 20rem;
+}
+
+.skills-sec-1{
+  height: 25rem;
+  width: 28rem;
+  border-radius: 5%;
+  margin-top: 3rem;
+  border: 2px solid rgb(199, 195, 195);
+}
+
+#skills-col{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#language-ul li{
+
+  padding: 1.5rem;
+  display: flex;
+}
+#language-ul li h6{
+  padding-left: 0.5rem;
+}
+
+#text-of-about{
+   width: 100%;
+}
+
+#service-box-sec-1{
+  height: 18rem;
+  width: 18rem;
+  border-radius: 5%;
+  margin-top: 3rem;
+  border: 2px solid rgb(199, 195, 195);
+  
+}
+#sec-1-box{
+  margin: 1rem;
+  
+  padding-top: 5rem;
+  
+}
+#service-box-sec-1:hover{
+
+  border:2px solid 
+  linear-gradient(90deg, rgba(3,1,40,1) 0%, rgba(11,37,117,1) 63%, rgba(16,63,172,1) 88%);
+}
+
+#service-card-row{
+  margin: 5rem;
+}
+#service-sec-col{
+  display: flex;
+  justify-content: center;
+}
+
+
+#pjc-btns{
+  width: 100px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: rgb(231, 233, 234);
+}
+#pjc-btn-div{
+  width: 100vh;
+  justify-content: center;
+}
+
+.project-box{
+  height: 200px;
+  width: 230px;
+  margin: 10px;
+  border-radius: 10%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#project-btn-box{
+  background-color: black;
+  height: 50px;
+  position: relative;
+  top: 70%;
+  border-radius: 0 0 10% 10%;
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+  .navbar{
+    width: 100%;
+  }
+  #skills-frontend{
+    width: 24rem;
+  }
+  #skills-col-sec{
+    justify-content: center;
+  }
+  
+  .sec-1{
+    width: 60%;
+    margin-left: 23%;
+    margin-top: 5%;
+
+  }
+  .about-image{
+    width: 90%;
+    margin-left: 5%;
+  }
+  #home-cont{
+    text-align: center;
+  }
+  #profile{
+    margin-left: 10%;
+  }
+  .icon-ul{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+/*  Conatct us section */
+#contact-main-diV{
+  height: 100%;
+  
+}
+.contact-inp-box{
+  height: 500px;
+  width: 100%;
+  
+}
+.contact-logo-box{
+
+  height: 500px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#contact-card-sec{
+  margin: 0;
+  padding: 0;
+}
+
+#contact-form-sec{
+ padding: 10px;
+}
+
+#contact-form-sec input{
+  border: 2px solid black;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#contact-form-sec textarea{
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 10rem;
+}
+#contact-form-sec #send-message-btn{
+  height: 45px;
+  border-radius: 20px 2px 20px 20px;
+}
+
+#footer-nav #footer-ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-nav #footer-ul li{
+  margin-right:30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#footer-icon{
+  margin: 10px;
+}
