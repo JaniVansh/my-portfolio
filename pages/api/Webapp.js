@@ -1,8 +1,8 @@
-import img1 from '../../.next/stocks/work1.jpg'
-import img2 from '../../.next/stocks/work2.jpg'
-import img3 from '../../.next/stocks/work3.jpg'
-import img4 from '../../.next/stocks/work4.jpg'
-import img5 from '../../.next/stocks/work5.jpg'
+import img1 from '../../public/stocks/work1.jpg'
+import img2 from '../../public/stocks/work2.jpg'
+import img3 from '../../public/stocks/work3.jpg'
+import img4 from '../../public/stocks/work4.jpg'
+import img5 from '../../public/stocks/work5.jpg'
 const Webapp = [
     {
         id:"1",
