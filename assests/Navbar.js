@@ -7,16 +7,11 @@ import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react";
 function Navigatebar() {
 
   const collapseItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
+    "About Me",
+    "Skills",
+    "Services",
+    "Projects",
+    "Contact us"
   ];
 
   return (
@@ -84,28 +79,10 @@ function Navigatebar() {
             >
               <Dropdown.Item key="profile" css={{ height: "$18" }}>
                 <Text b color="inherit" css={{ d: "flex" }}>
-                  Signed in as
-                </Text>
-                <Text b color="inherit" css={{ d: "flex" }}>
-                  zoey@example.com
+                  janivansh2002@gmail.com
                 </Text>
               </Dropdown.Item>
-              <Dropdown.Item key="settings" withDivider>
-                My Settings
-              </Dropdown.Item>
-              <Dropdown.Item key="team_settings">Team Settings</Dropdown.Item>
-              <Dropdown.Item key="analytics" withDivider>
-                Analytics
-              </Dropdown.Item>
-              <Dropdown.Item key="system">System</Dropdown.Item>
-              <Dropdown.Item key="configurations">Configurations</Dropdown.Item>
-              <Dropdown.Item key="help_and_feedback" withDivider>
-                Help & Feedback
-              </Dropdown.Item>
-              <Dropdown.Item key="logout" withDivider color="error">
-                Log Out
-              </Dropdown.Item>
-            </Dropdown.Menu>
+              </Dropdown.Menu>
           </Dropdown>
         </Navbar.Content>
         <Navbar.Collapse>
