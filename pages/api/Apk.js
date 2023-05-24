@@ -1,22 +1,22 @@
-import img1 from '../../public/stocks/work1.jpg'
-import img2 from '../../public/stocks/work2.jpg'
-import img3 from '../../public/stocks/work3.jpg'
+// import img1 from '../../public/stocks/work1.jpg'
+// import img2 from '../../public/stocks/work2.jpg'
+// import img3 from '../../public/stocks/work3.jpg'
 
 const Apk = [
     {
         id:"1",
         name : "web 1",
-        img : img1
+        img : '/images/fruit-1.jpeg'
     },
     {
         id:"2",
         name : "web 2",
-        img : img2
+        img : '/images/fruit-2.jpeg'
     },
     {
         id:"3",
         name : "web 3",
-        img : img3
+        img : '/images/fruit-3.jpeg'
     },
     
 ]

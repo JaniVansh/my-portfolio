@@ -2,11 +2,14 @@ import React ,{useState} from 'react'
 import Webapp from '../pages/api/Webapp.js'
 import Apk from '../pages/api/Apk.js'
 import Image from 'next/image.js'
+import { Card, Grid, Row, Text } from "@nextui-org/react";
+
 function Project() {
 
 const [webapp,setwebapp] = useState(Webapp)
 const [application,setapk] = useState(Apk)
 const[data,setdata] = useState([])
+
 
   return (
     <>
@@ -31,22 +34,31 @@ const[data,setdata] = useState([])
        </div>
         </div>
         <div className='container'>
-            <div className='row'>
-            <div className='col-lg-12 col-md-12 col-12'>
-            <div className='row'>
-           <div className='col-lg-12 col-md-12 col-12' id='project-box-div'>
-                
-                {data.map((res)=>{
-                   return(<>
-                   <div className='project-box'>
-                    <Image src={res.img} height={200} width={225} style={{borderRadius:"10%"}} alt='no'/>
-                    </div>
-                   </>)
-                })}
-                </div>
-            </div>
-            </div>
-            </div>
+        <Grid.Container gap={2} justify="flex-start">
+      {data.map((item, index) => (
+        <Grid xs={6} sm={3} key={index}>
+          <Card isPressable>
+            <Card.Body css={{ p: 0 }}>
+              <Card.Image
+               src={"https://nextui.org" + item.img}
+               objectFit="cover"
+                width="100%"
+                height={140}
+                alt="img"
+              />
+            </Card.Body>
+            <Card.Footer css={{ justifyItems: "flex-start" }}>
+              <Row wrap="wrap" justify="space-between" align="center">
+                <Text b>Project</Text>
+                <Text css={{ color: "$accents7", fontWeight: "$semibold", fontSize: "$sm" }}>
+                  Project 
+                </Text>
+              </Row>
+            </Card.Footer>
+          </Card>
+        </Grid>
+      ))}
+    </Grid.Container>
         </div>
     
     </>
