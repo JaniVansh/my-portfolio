@@ -6,17 +6,17 @@ const Apk = [
     {
         id:"1",
         name : "web 1",
-        img : '/images/fruit-1.jpeg'
+        img : 'https://nextui.org/images/fruit-1.jpeg'
     },
     {
         id:"2",
         name : "web 2",
-        img : '/images/fruit-2.jpeg'
+        img : 'https://nextui.org/images/fruit-2.jpeg'
     },
     {
         id:"3",
         name : "web 3",
-        img : '/images/fruit-3.jpeg'
+        img : 'https://nextui.org/images/fruit-3.jpeg'
     },
     
 ]
