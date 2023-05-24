@@ -7,27 +7,28 @@ const Webapp = [
     {
         id:"1",
         name : "web 1",
-        img : '/images/fruit-1.jpeg'
+        projectlink : "https://animated-parfait-516e15.netlify.app",
+        img : 'https://images-platform.99static.com/oimUg2rGs8WSurVrpMG7MMpAyjs=/0x0:960x960/500x500/top/smart/99designs-contests-attachments/92/92793/attachment_92793967'
     },
     {
         id:"2",
         name : "web 2",
-        img : '/images/fruit-2.jpeg'
+        img : 'https://nextui.org/images/fruit-2.jpeg'
     },
     {
         id:"3",
         name : "web 3",
-        img : '/images/fruit-3.jpeg'
+        img : 'https://nextui.org/images/fruit-3.jpeg'
     },
     {
         id:"4",
         name : "web 4",
-        img  :'/images/fruit-4.jpeg'
+        img  :'https://nextui.org/images/fruit-4.jpeg'
     },
     {
         id:"5",
         name : "web 5",
-        img : '/images/fruit-5.jpeg'
+        img : 'https://nextui.org/images/fruit-5.jpeg'
     },
 ]
 
