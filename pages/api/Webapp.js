@@ -6,7 +6,8 @@
 const Webapp = [
     {
         id:"1",
-        name : "web 1",
+        title : "Wallpaper Downloader",
+        name : "My Wall",
         projectlink : "https://animated-parfait-516e15.netlify.app",
         img : 'https://images-platform.99static.com/oimUg2rGs8WSurVrpMG7MMpAyjs=/0x0:960x960/500x500/top/smart/99designs-contests-attachments/92/92793/attachment_92793967'
     },

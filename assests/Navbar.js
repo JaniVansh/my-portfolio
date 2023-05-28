@@ -2,8 +2,7 @@
 import Head from 'next/head'
 import React from 'react'
 
-import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react";
-
+import { Navbar, Link, Container, Text, Avatar, Dropdown } from "@nextui-org/react";
 function Navigatebar() {
 
   const collapseItems = [
@@ -14,6 +13,29 @@ function Navigatebar() {
     "Contact us"
   ];
 
+  const thelinks = [
+    {
+      text:"About Me",
+      link:"#about-cont",
+    },
+    {
+      text:"Skills",
+      link:"#skills",
+    },
+    {
+      text:"Services",
+      link:"#service",
+    },
+    {
+      text:"Projects",
+      link:"#projects",
+    },
+    {
+      text:"Contact us",
+      link:"#contact-us",
+    },
+  ]
+
   return (
     <>
     
@@ -22,9 +44,9 @@ function Navigatebar() {
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
-<div className='container-fluid'>
-  
-<Navbar isBordered variant="sticky">
+<Navbar  css={{
+      maxW: "100%"
+    }} isBordered variant="sticky"  style={{backgroundColor:"white"}}>
         <Navbar.Toggle showIn="xs" />
         <Navbar.Brand
           css={{
@@ -86,7 +108,7 @@ function Navigatebar() {
           </Dropdown>
         </Navbar.Content>
         <Navbar.Collapse>
-          {collapseItems.map((item, index) => (
+          {thelinks.map((item, index) => (
             <Navbar.CollapseItem
               key={item}
               activeColor="secondary"
@@ -100,17 +122,15 @@ function Navigatebar() {
                 css={{
                   minWidth: "100%",
                 }}
-                href="#"
+                href={item.link}
               >
-                {item}
+                {item.text}
               </Link>
             </Navbar.CollapseItem>
           ))}
         </Navbar.Collapse>
       </Navbar>
-</div>
-
-    </>
+   </>
   ) 
 
 }

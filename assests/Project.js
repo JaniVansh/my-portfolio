@@ -50,9 +50,9 @@ const[data,setdata] = useState([])
             </Card.Body>
             <Card.Footer css={{ justifyItems: "flex-start" }}>
               <Row wrap="wrap" justify="space-between" align="center">
-                <Text b>Project</Text>
+                <Text b>{item.name}</Text>
                 <Text css={{ color: "$accents7", fontWeight: "$semibold", fontSize: "$sm" }}>
-                  Project 
+                  {item.title}
                 </Text>
               </Row>
             </Card.Footer>
