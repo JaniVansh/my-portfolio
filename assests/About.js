@@ -19,7 +19,7 @@ function About() {
     cancel, error, isInProgress } =
 useDownloader();
 
-const fileUrl = "/Resume/janivansh.pdf";
+const fileUrl = "/Resume/Jani-Vansh.pdf";
 const filename = "janivansh.pdf";
 
 

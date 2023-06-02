@@ -5,7 +5,7 @@ function Skills() {
   return (
     <>
     
-    <div className='container' id='skills'>
+    <div className='container-fluid' id='skills'>
 
     <div className='skils-text text-center'>
 
