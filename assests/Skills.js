@@ -5,7 +5,7 @@ function Skills() {
   return (
     <>
     
-    <div className='container-fluid' id='skills'>
+    <div className='container' id='skills'>
 
     <div className='skils-text text-center'>
 
@@ -21,7 +21,7 @@ function Skills() {
 
 
                 <div className='row mt-5'>
-                <div className='col-lg-6 col-md-6 col-12' id='skills-col-sec' style={{display:"flex",width:"100%"}}>
+                <div className='col-lg-6 col-md-6 col-12' id='skills-col-sec' style={{display:"flex",width:"100%",justifyContent:"center"}}>
                 <ul style={{listStyleType:"none"}} id='language-ul'>
                     <li><VerifiedIcon/><h6>HTML</h6></li>
                     <li><VerifiedIcon/><h6>CSS</h6></li>
@@ -48,12 +48,14 @@ function Skills() {
 
             <div className='row mt-5'>
 
-            <div className='col-lg-6 col-md-6 col-12'  style={{display:"flex" ,width:"100%"}}>
+            <div className='col-lg-6 col-md-6 col-12'  style={{display:"flex" ,width:"100%",justifyContent:"center"}}>
+                
                 <ul style={{listStyleType:"none"}} id='language-ul'>
                     <li><VerifiedIcon/><h6>PHP</h6></li>
                     <li><VerifiedIcon/><h6>Node js</h6></li>
                     <li><VerifiedIcon/><h6>Mysql</h6></li>
                     </ul>
+                
                 <ul style={{listStyleType:"none"}} id='language-ul'>    
                    <li><VerifiedIcon/><h6>SQL</h6></li>
                     <li><VerifiedIcon/><h6>Firebase</h6></li>

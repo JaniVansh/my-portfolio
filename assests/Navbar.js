@@ -1,8 +1,8 @@
 
 import Head from 'next/head'
 import React from 'react'
-
-import { Navbar, Link, Container, Text, Avatar, Dropdown } from "@nextui-org/react";
+import logo from '../public/stocks/profile-avatar.png'
+import { Navbar, Link, Container, Text, Avatar, Dropdown, Button } from "@nextui-org/react";
 function Navigatebar() {
 
   const collapseItems = [
@@ -90,7 +90,7 @@ function Navigatebar() {
                   as="button"
                   color="secondary"
                   size="md"
-                  src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+                  src='./stocks/profile-avatar.png'
                 />
               </Dropdown.Trigger>
             </Navbar.Item>
@@ -103,6 +103,7 @@ function Navigatebar() {
                 <Text b color="inherit" css={{ d: "flex" }}>
                   janivansh2002@gmail.com
                 </Text>
+                <Button  onPress={()=>window.open('mailto:janivansh2002@gmail.com?subject=project','_blank')}>Contact</Button>
               </Dropdown.Item>
               </Dropdown.Menu>
           </Dropdown>
