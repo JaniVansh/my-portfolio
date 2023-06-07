@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +11,7 @@
 
 .icon-ul {
   list-style-type: none;
+  
 }
 
 #linkdin-icon:hover {
@@ -242,7 +244,8 @@
 
   .icon-ul {
     display: flex;
-    justify-content: center;
+    transform: translateX(-5%);
+    justify-content: space-between;
   }
 }
 

@@ -1,14 +1,15 @@
-import React from 'react'
+import React,{useState , useEffect} from 'react'
 import Navbar from '../assests/Navbar'
 import Home from './Home'
 function index() {
+
+
   return (
     <>
-    
+  
   <Navbar/>
   
   <Home/>
-    
     </>
   )
 }

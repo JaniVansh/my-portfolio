@@ -45,7 +45,7 @@ const Downloadcv = () =>{
   <div className='col-lg-12 col-md-12 col-12'>
 
 <div className='about-image text-center'>
-  <img src="https://ouch-cdn2.icons8.com/cOvD7Uk7Q3qUfpBfNXhe91_kNIrJjNQBuz71cqljm4M/rs:fit:256:223/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNDk2/L2Y4ZTM2MmIwLTI3/YmUtNGJjOC1hMTE2/LWQwNTIzYzA3MDBm/Yy5wbmc.png" width={350} height={350} />
+  <img src="https://ouch-cdn2.icons8.com/cOvD7Uk7Q3qUfpBfNXhe91_kNIrJjNQBuz71cqljm4M/rs:fit:256:223/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNDk2/L2Y4ZTM2MmIwLTI3/YmUtNGJjOC1hMTE2/LWQwNTIzYzA3MDBm/Yy5wbmc.png" width={350} height={350} alt='No img' />
 </div>
 </div>
 </div>

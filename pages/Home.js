@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -9,16 +9,22 @@ import Project from '../assests/Project'
 import SendIcon from '@mui/icons-material/Send';
 import Contactus from '../assests/Contactus'
 import Footer from '../assests/Footer.js'
+import { Loading } from '@nextui-org/react';
+
+
+
 function Home() {
 
 
-
+  
   return (
     <>
 
 
-
+        
       <div className='container' id='home-cont'>
+        
+        
         <div className='row' id='box'>
 
           <div className='col-lg-4 col-md-4 col-12' >
@@ -32,7 +38,7 @@ function Home() {
 
             <section>
               <h1><strong>jani Vansh</strong></h1>
-              <h3>________Web Developer</h3>
+              <h3>________a Web Developer</h3>
               <p>I'm web developer based in india , and i'm very passionate and dedicated to my work..</p>
 
               <button className='btn btn-dark my-5' onClick={() => window.open('https://api.whatsapp.com/send/?phone=7778003769&text&type=phone_number&app_absent=0', '_blank')}>Say Hello &nbsp; &nbsp;<SendIcon /></button>
@@ -41,7 +47,7 @@ function Home() {
           <div className='col-lg-4 col-md-4 col-12' >
             <div className='row'>
               <div className='col-lg-12 col-md-12 col-12'>
-                <div id='profile'></div>
+                <div id='profile' alt="no img"></div>
               </div>
             </div>
           </div>
@@ -72,7 +78,7 @@ function Home() {
       {/*////////////////////// Footer  Section ///////////////////////// */}
 
       <Footer />
-
+      
 
     </>
   )
