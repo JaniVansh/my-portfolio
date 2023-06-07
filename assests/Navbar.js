@@ -91,6 +91,7 @@ function Navigatebar() {
                   color="secondary"
                   size="md"
                   src='./stocks/profile-avatar.png'
+                  alt='no img'
                 />
               </Dropdown.Trigger>
             </Navbar.Item>

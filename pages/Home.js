@@ -38,7 +38,7 @@ function Home() {
 
             <section>
               <h1><strong>jani Vansh</strong></h1>
-              <h3>________a Web Developer</h3>
+              <h3>________Web Developer</h3>
               <p>I'm web developer based in india , and i'm very passionate and dedicated to my work..</p>
 
               <button className='btn btn-dark my-5' onClick={() => window.open('https://api.whatsapp.com/send/?phone=7778003769&text&type=phone_number&app_absent=0', '_blank')}>Say Hello &nbsp; &nbsp;<SendIcon /></button>
