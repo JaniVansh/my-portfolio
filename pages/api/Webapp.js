@@ -13,8 +13,10 @@ const Webapp = [
     },
     {
         id:"2",
-        name : "web 2",
-        img : 'https://nextui.org/images/fruit-2.jpeg'
+        title : "Speech to text",
+        name : "My voice",
+        projectlink : "https://effervescent-baklava-cd608c.netlify.app/",
+        img : 'https://www.apkonline.net/imagescropped/voicestarticon128.jpgplus.webp'
     },
     {
         id:"3",
